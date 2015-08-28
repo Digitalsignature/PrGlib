@@ -16,6 +16,7 @@ int main()
         STARTS_TIME
         genprime.PrG_renew();
         cout<<genprime.PrG_generate_strong_prime().get_str()<<endl;
+        //cout<<genprime.PrG_generate_prime().get_str()<<endl;
         FINISHS_TIME
     }
     return 0;
